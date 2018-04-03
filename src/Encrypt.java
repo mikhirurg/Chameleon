@@ -8,8 +8,8 @@ public class Encrypt {
         Scanner scn=new Scanner(System.in);
         boolean isStart=true;
         while(isStart) {
-            String commandDec=scn.nextLine();
-            switch (commandDec){
+            String commandEnc=scn.nextLine();
+            switch (commandEnc){
 
                 case "/stop":
                     isStart=false;
